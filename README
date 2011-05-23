@@ -20,6 +20,10 @@ there, clone the dynamis framework:
 
 It will populate the empty dynamis-app-skel/dynamis directory.
 
+Next, you will need to copy the app/config.php.template to app/config.php.
+Open the file up and make changes as nescessary. I've documented it to make it
+easy on you.
+
 You can setup your webserver to serve up the dynamis-app-skel directory. If you
 are using Apache httpd, make sure it loads the .htaccess file and uses the
 mod_rewrite rules specified. Otherwise, you won't be able to use the framework.
