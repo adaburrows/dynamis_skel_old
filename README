@@ -25,10 +25,10 @@ Open the file up and make changes as nescessary. I've documented it to make it
 easy on you.
 
 You can setup your webserver to serve up the dynamis-app-skel directory. If you
-are using Apache httpd, make sure it loads the .htaccess file and uses the
-mod_rewrite rules specified. Otherwise, you won't be able to use the framework.
-If this becomes a problem, get all your friends to complain to me and I'll think
-about adding it.
+are using Apache httpd, copy .htaccess.template to .htaccess. Make sure Apache
+loads the .htaccess file and uses the mod_rewrite rules specified. Otherwise,
+you won't be able to use the framework. If this becomes a problem, get all your
+friends to complain to me and I'll think about adding it.
 
 If you are using nginx, I've included a sample server directive for you hacking
 pleasure. If you need more help setting it up with nginx, I pitty your soul --
