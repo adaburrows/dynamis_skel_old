@@ -9,5 +9,5 @@
  */
 
 router::setRoutes( array(
-  'hello/:opt'              => 'main#hello'
+  'hello'              => 'main#hello'
   ) );
