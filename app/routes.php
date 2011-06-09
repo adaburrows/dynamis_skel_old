@@ -9,5 +9,5 @@
  */
 
 router::setRoutes( array(
-  'api/:opt'              => 'wikilayer#index'
+  'hello/:opt'              => 'main#hello'
   ) );
